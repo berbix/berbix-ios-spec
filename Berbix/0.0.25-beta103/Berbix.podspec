@@ -19,7 +19,7 @@ to get started.
   s.homepage         = 'https://berbix.com'
   s.license          = { :type => 'Copyright', :text => 'Copyright 2019 Berbix Inc.' }
   s.author           = { 'Eric Levine' => 'eric@berbix.com' }
-  s.source           = { :git => 'git@github.com:berbix/berbix-ios-distribution.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/berbix/berbix-ios-distribution.git', :tag => s.version.to_s }
 
   s.platform = :ios, "11.0"
   s.ios.deployment_target = '11.0'
