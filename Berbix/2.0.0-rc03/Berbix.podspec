@@ -28,4 +28,7 @@ to get started.
   s.source_files = "Berbix.xcframework/*/Berbix.framework/Headers/*.h"
   s.vendored_frameworks = "Berbix.xcframework"
   s.swift_version = "4.2"
+
+  s.dependency 'SwiftyJSON', '~> 4.0'
+  s.dependency 'Sentry', '~> 6.2.1'
 end
