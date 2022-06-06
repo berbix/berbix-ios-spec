@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Sam Green' => 'sam@berbix.com' }
   s.source           = { :git => 'https://github.com/berbix/berbix-ios-distribution.git', :tag => s.version.to_s + "-advancedsdk" }
   s.social_media_url = 'https://twitter.com/berbix'
-  s.ios.deployment_target = '14.0'
+  s.ios.deployment_target = '12.0'
 
   s.vendored_frameworks = 'BerbixAdvanced.xcframework'
   s.frameworks = 'UIKit', 'AVFoundation'
